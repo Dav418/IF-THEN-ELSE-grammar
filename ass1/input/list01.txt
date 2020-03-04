@@ -1,0 +1,15 @@
+a = true;
+b = false;
+
+c = 20;
+d = 3;
+
+if a && !b {
+[c+d]
+}else if a || b {
+[c*d]
+}else{
+[c-d]
+}
+
+[2**30]
